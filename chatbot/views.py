@@ -14,7 +14,7 @@ import os
 # messages = [{"role": "system", "content": "Trả lời hết tất cả câu hỏi bằng tiếng anh dù câu hỏi có thể là ngôn ngữ khác tiếng anh"}]
 messages = [{"role": "system", "content": ""}]  
 def ask_openai(message):
-    api_key = "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"
+    api_key = ""
     os.environ["OPENAI_API_KEY"] = api_key
     OpenAI.api_key = api_key
 
